@@ -108,13 +108,13 @@ export class b2BodyDef implements b2IBodyDef {
 
   /// The world position of the body. Avoid creating bodies at the origin
   /// since this can lead to many overlapping shapes.
-  public readonly position: b2Vec2 = new b2Vec2(0, 0);
+  public position: b2Vec2 = new b2Vec2(0, 0);
 
   /// The world angle of the body in radians.
   public angle: number = 0;
 
   /// The linear velocity of the body's origin in world co-ordinates.
-  public readonly linearVelocity: b2Vec2 = new b2Vec2(0, 0);
+  public linearVelocity: b2Vec2 = new b2Vec2(0, 0);
 
   /// The angular velocity of the body.
   public angularVelocity: number = 0;

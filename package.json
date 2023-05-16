@@ -1,6 +1,6 @@
 {
   "name": "mani-box2d",
-  "version": "1.0.1-pre.2",
+  "version": "1.0.1-pre.5",
   "description": "A TypeScript port of Box2D",
   "scripts": {
     "clean": "npm run clean-box2d",
